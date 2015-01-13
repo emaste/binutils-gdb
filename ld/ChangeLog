@@ -1,3 +1,11 @@
+2015-xx-xx  Andrew Turner <>
+
+	* Makefile.am: Add FreeBSD aarch64 files.
+	* Makefile.in: Likewise.
+	* configure.tgt: Add aarch64-*-freebsd* target triple.
+	* emulparams/aarch64fbsd.sh: New file.
+	* emulparams/aarch64fbsdb.sh: New file.
+
 2015-xx-xx  Ed Maste  <emaste@freebsd.org>
 
 	* emultempl/elf32.em (gld${EMULATION_NAME}_before_allocation):
