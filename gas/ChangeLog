@@ -1,3 +1,8 @@
+2015-xx-xx  Ed Maste  <emaste@freebsd.org>
+
+	* config/tc-aarch64.c: Remove unused set_error_kind and
+	set_error_message.
+
 2015-02-11  Matthew Wahab  <matthew.wahab@arm.com>
 
 	* config/tc-aarch64.c (aarch64_cpus): Fix code formatting.
