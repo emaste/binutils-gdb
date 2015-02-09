@@ -1,3 +1,8 @@
+2015-xx-xx  Ed Maste  <emaste@freebsd.org>
+
+	* emultempl/elf32.em (gld${EMULATION_NAME}_before_allocation):
+	Silence uninitialized warning on ehdr_start_save.
+
 2015-02-11  H.J. Lu  <hongjiu.lu@intel.com>
 
 	PR ld/17878
