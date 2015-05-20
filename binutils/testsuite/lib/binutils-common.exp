@@ -36,10 +36,15 @@ proc is_elf_format {} {
 	 && ![istarget tic6x*-*-uclinux*]
 	 && ![istarget *-*-irix5*]
 	 && ![istarget *-*-irix6*]
+	 && ![istarget *-*-freebsd*]
 	 && ![istarget *-*-netbsd*]
 	 && ![istarget *-*-openbsd*]
 	 && ![istarget *-*-solaris2*] } {
 	return 0
+    }
+
+    if { [istarget i?86-*-freebsd\[12\]*] } {
+        return 0
     }
 
     if { [istarget *-*-linux*aout*]
